@@ -35,16 +35,16 @@ const Navbar = () => {
 					</h1>
 				</Link>
 				<ul style={{ color: `${textColor}` }} className="hidden sm:flex">
-					<li onClick={handleNav}   className="p-4">
+					<li onClick={handleNav} className="p-4">
 						<Link href="/"> Inicio</Link>
 					</li>
-					<li onClick={handleNav}   className="p-4">
+					<li onClick={handleNav} className="p-4">
 						<Link href="/#gallery"> Galería</Link>
 					</li>
-					<li onClick={handleNav}   className="p-4">
+					<li onClick={handleNav} className="p-4">
 						<Link href="/work"> Próximamente</Link>
 					</li>
-					<li onClick={handleNav}   className="p-4">
+					<li onClick={handleNav} className="p-4">
 						<Link href="/contact"> Contacto</Link>
 					</li>
 				</ul>
@@ -66,17 +66,29 @@ const Navbar = () => {
 					}
 				>
 					<ul>
-						<li className="p-4 text-4xl hover:text-gray-500">
-							<Link href="/"> Home</Link>
+						<li
+							onClick={handleNav}
+							className="p-4 text-4xl hover:text-gray-500"
+						>
+							<Link href="/"> Inicio</Link>
 						</li>
-						<li className="p-4 text-4xl hover:text-gray-500">
-							<Link href="/#gallery"> Gallery</Link>
+						<li
+							onClick={handleNav}
+							className="p-4 text-4xl hover:text-gray-500"
+						>
+							<Link href="/#gallery"> Galería</Link>
 						</li>
-						<li className="p-4 text-4xl hover:text-gray-500">
-							<Link href="/portfolio"> Portfolio</Link>
+						<li
+							onClick={handleNav}
+							className="p-4 text-4xl hover:text-gray-500"
+						>
+							<Link href="/work"> Próximamente</Link>
 						</li>
-						<li className="p-4 text-4xl hover:text-gray-500">
-							<Link href="/contact"> Contact</Link>
+						<li
+							onClick={handleNav}
+							className="p-4 text-4xl hover:text-gray-500"
+						>
+							<Link href="/contact"> Contacto</Link>
 						</li>
 					</ul>
 				</div>
