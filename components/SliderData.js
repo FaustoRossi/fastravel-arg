@@ -22,7 +22,7 @@ export const SliderData = [
 	{
 		destination: "",
 		image:
-			"https://media.istockphoto.com/photos/argentina-iguazu-waterfalls-garganta-del-diablo-with-rainbow-picture-id155384430?b=1&k=20&m=155384430&s=612x612&w=0&h=8FXQExVzIElt9-httZOH7t-gOubmZyPm3czd2e4Nadk=",
+			"https://images.pexels.com/photos/1203565/pexels-photo-1203565.jpeg?auto=compress&cs=tinysrgb&w=1600",
 	},
 	{
 		destination: "",
